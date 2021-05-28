@@ -1,6 +1,6 @@
-# Next.js Typescript Template Arch Team
+# Next.js Template Arch Team
 
-Next.js template with TypeScript and Sass
+Next.js template Login, Register and Forgot pages
 
 <p align="center">
 <img alt="Organization" src="https://img.shields.io/static/v1?label=Made%20by&message=Arch%20Team&color=F8A825&labelColor=000000">
@@ -11,7 +11,7 @@ Next.js template with TypeScript and Sass
 
 ## How to use
 
->`npx create-next-app <project-name> --example "https://github.com/Team-Arch/Next-typescript-template-arch"`
+> `npx create-next-app <project-name> --example "https://github.com/Team-Arch/Next-login-register-forgot-arch"`
 
 ## Technologies
 

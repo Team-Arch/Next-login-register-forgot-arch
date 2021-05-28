@@ -1,0 +1,43 @@
+.backBtnBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 3rem;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .backBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    color: white;
+    background: transparent;
+
+    border: none;
+    outline: none;
+
+    border-radius: 0.3rem;
+
+    transition: all 0.5s ease;
+
+    animation-name: slideBtn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+  }
+  .backBtn:hover {
+    background: RGBA(98, 105, 228, 0.1);
+    filter: blur(50%);
+  }
+}
+@keyframes slideBtn {
+  from {
+    opacity: 0;
+    transform: translateX(+5.125rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
